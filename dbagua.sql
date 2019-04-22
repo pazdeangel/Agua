@@ -1,10 +1,10 @@
 /*
 MySQL Data Transfer
 Source Host: localhost
-Source Database: dbkuali
+Source Database: dbagua
 Target Host: localhost
-Target Database: dbkuali
-Date: 12/08/2010 11:12:06
+Target Database: dbagua
+Date: 09/04/2019 11:12:06
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -92,10 +92,10 @@ CREATE TABLE `tblusuario` (
 -- Records 
 -- ----------------------------
 INSERT INTO `tblcliente` VALUES ('0', 'pascual tzompanzi maldonado', 'av. francisco i madero #113', '345', '345', 'r434r43', 'hutdsf', 'sdf', '34234', 'domestico', '2010-08-11');
-INSERT INTO `tblorden` VALUES ('1', '2010-07-15', '1', 'reconexion', 'juan hernandez hernandez', 'a cubierto su pago');
-INSERT INTO `tblorden` VALUES ('2', '2010-08-10', '2', 'RECONEXION', 'joe', 'ya pago');
-INSERT INTO `tblorden` VALUES ('3', '2011-08-10', '2', 'corte', 'changoleon', 'no paga');
-INSERT INTO `tblorden` VALUES ('4', '2011-08-10', '0', 'corte', 'utito', 'asda');
+INSERT INTO `tblorden` VALUES ('1', '2010-07-15', '1', 'reconexion', 'pascual tzompantzi maldonado', 'a cubierto su pago');
+INSERT INTO `tblorden` VALUES ('2', '2010-08-10', '2', 'RECONEXION', 'gloria', 'ya pago');
+INSERT INTO `tblorden` VALUES ('3', '2011-08-10', '2', 'corte', 'laura', 'no paga');
+INSERT INTO `tblorden` VALUES ('4', '2011-08-10', '0', 'corte', 'pedro', 'ya pago');
 INSERT INTO `tblpago` VALUES ('1', '1', '09-08-10', '0', '09-08-10', '61', '0', '0', '61', '2010-08-09');
 INSERT INTO `tblpago` VALUES ('2', '0', '11-08-10', '1', '11-09-10', '202', '0', '45', '247', '2010-08-11');
 INSERT INTO `tblusuario` VALUES ('1', 'pascual', 'laurapas1', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '');
