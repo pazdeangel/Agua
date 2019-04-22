@@ -8,7 +8,7 @@ import javax.swing.JOptionPane;
 
 public class JDlgBackup extends javax.swing.JDialog
 {
-    public String base_datos = "dbkuali";
+    public String base_datos = "dbagua";
     public String usuario = "root";
     public String password = "laurapas1";
 
